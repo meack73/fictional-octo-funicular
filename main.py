@@ -1,6 +1,22 @@
+<<<<<<< HEAD
 def menu_display():
 	print("Menu \n-------------")
 	print("1. Encode \n2. Decode \n3. Quit")
+=======
+# encode - 
+
+
+
+
+return result
+# decode - NJ
+def decoder(message):
+	result = ""
+	for number in message:
+		new_number = str((int(digit) - 3) % 10)
+		result += new_number
+	return result
+>>>>>>> 9b3a9020c4f74802edfaeaa2c8d5a35d17812eae
 
 def encode_password(encode_input):
 	encode_input_list = []
