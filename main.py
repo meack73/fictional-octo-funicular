@@ -1,14 +1,12 @@
-<<<<<<< HEAD
+
 def menu_display():
 	print("Menu \n-------------")
 	print("1. Encode \n2. Decode \n3. Quit")
-=======
-# encode - 
 
 
 
 
-return result
+
 # decode - NJ
 def decoder(message):
 	result = ""
@@ -16,7 +14,7 @@ def decoder(message):
 		new_number = str((int(digit) - 3) % 10)
 		result += new_number
 	return result
->>>>>>> 9b3a9020c4f74802edfaeaa2c8d5a35d17812eae
+
 
 def encode_password(encode_input):
 	encode_input_list = []
@@ -37,7 +35,7 @@ def main():
 			result = encode_password(encode_input)
 			print("Your password has been encoded and stored!")
 		if user_input == 2:
-			pass
+			password = decoder(result)
 			print(f'The encoded password is {result}, and the original password is {password}.')
 		if user_input == 3:
 			break
