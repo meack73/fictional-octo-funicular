@@ -7,7 +7,7 @@ def encode_password(encode_input):
 	for i in encode_input:
 		i = int(i) + 3
 		encode_input_list.append(i)
-		encoded_string = "".join(map(str, encoded_input_list))
+		encoded_string = "".join(map(str, encode_input_list))
 	return encoded_string
 
 
